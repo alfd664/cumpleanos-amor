@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
+  <title>Una sorpresa para ti ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Pantalla inicial -->
+  <section id="welcome" class="screen welcome-screen">
+    <div class="welcome-content">
+      <div class="floating-hearts">♥ ♥ ♥</div>
+      <p class="eyebrow">UNA SORPRESA ESPECIAL</p>
+      <h1>HOY EN TU DIA<br><span id="personName">NOMBRE</span> ❤️</h1>
+      <p class="intro">Preparé algo especial para recordar algunos de tus mejores momentos.</p>
+      <button id="openButton" class="main-button">Abrir sorpresa ✨</button>
+    </div>
+  </section>
+
+  <!-- Contenido principal -->
+  <main id="mainContent" class="hidden">
+
+    <header class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">HOY CELEBRAMOS TU VIDA</p>
+        <h1>¡Feliz cumpleaños, <span id="heroName">NOMBRE</span>!</h1>
+        <p id="heroMessage">Que este nuevo año esté lleno de momentos increíbles, sonrisas y muchos recuerdos.</p>
+      </div>
+    </header>
+
+    <!-- Música -->
+    <div class="music-player">
+      <button id="musicButton" aria-label="Reproducir música">▶</button>
+      <div class="music-info">
+        <strong id="musicTitle">Nuestra canción</strong>
+        <span id="musicStatus">Toca para reproducir</span>
+      </div>
+      <div class="music-bars" id="musicBars">
+        <i></i><i></i><i></i><i></i><i></i>
+      </div>
+    </div>
+
+    <!-- Mensaje -->
+    <section class="section message-section">
+      <p class="section-label">💌 UN MENSAJE PARA TI</p>
+      <h2>Porque hoy es un día especial</h2>
+      <div class="message-card">
+        <p>
+          Amor, cada momento a tu lado es un regalo, agradezco cada sonrisa, cada abrazo, cada recuerdo que hemos compartido. 
+        </p>
+          Hoy es un dia especial para ti, para mi y para todos los que te queremos.
+        <p>
+          Yo no sé si tal vez fue muy pronto, tal vez el corazón no sabe de tiempos,
+          solo sabe reconocer
+          cuando encuentra un lugar donde quiere quedarse.
+        </p>
+        <p>
+          Y contigo aprendí
+          que hay miradas que dicen más que mil palabras,
+          sonrisas capaces de cambiar un día entero
+          y abrazos donde el mundo puede detenerse.
+        </p>
+        <p>
+          Me gusta tu forma de ser,
+          esa manera tan tuya de hacerme sonreir,
+          tu locura, tus ocurrencias,
+          y hasta esos pequeños detalles que quiza tú no notas, 
+          pero que yo guardo como tesoros.
+        </p>
+        <p>
+          Si algun día me preguntaran qué ha sido lo más bonito que me ha pasado,
+          no tendría que pensarlo demasiado:
+          diría tu nombre.
+        </p>
+        <p>
+          Porque entre tantos caminos, 
+          tantas personas y tantos momentos,
+          tuve la suerte de coincidir contigo.
+        </p>
+        <p>
+          Y si la vida me diera la oportunidad, 
+          si pudiera volver al principio
+          volveria a elegir el mismo camino,
+          volveria a buscar aquella coincidencia
+          que terminó llevandome hasta ti.
+        </p>
+        <p>
+          Hoy en tu día 
+          solo quiero que recuerdes algo:
+        </p>
+          De todas las cosas bonitas que existen,
+          una de mis favoritas eres tú. ❤️
+        </p>
+        <p>
+          "TE AMO ALEJANDRA L.G.🧸✨" <br>
+        </p>
+      </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="section">
+      <p class="section-label">📸 NUESTROS RECUERDOS</p>
+      <h2>Momentos que vale la pena recordar</h2>
+
+      <div class="gallery">
+        <!-- Copia este bloque para agregar más fotografías -->
+        <figure class="photo-card">
+          <img src="images/foto01.jpg" alt="Recuerdo 1">
+          <figcaption>Un recuerdo especial ❤️</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <img src="images/foto02.jpg" alt="Recuerdo 2">
+          <figcaption>Un momento inolvidable</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <img src="images/foto03.jpg" alt="Recuerdo 3">
+          <figcaption>Siempre juntos ✨</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <img src="images/foto04.jpg" alt="Recuerdo 4">
+          <figcaption>Otro hermoso recuerdo</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <img src="images/foto05.jpg" alt="Recuerdo 5">
+          <figcaption>Momentos que quedan para siempre</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <img src="images/foto06.jpg" alt="Recuerdo 6">
+          <figcaption>❤️</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <img src="images/foto07.jpg" alt="Recuerdo 7">
+          <figcaption>Atrapas el vuelo que lleva tus sueños, listo para soltarlo en el cielo</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <img src="images/foto08.jpg" alt="Recuerdo 8">
+          <figcaption>🥰Mi futura Contadora😍</figcaption>
+        </figure>
+
+                <figure class="photo-card">
+          <img src="images/foto09.jpg" alt="Recuerdo 9">
+          <figcaption>🥰 La mujer más guapa!!😍</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- Video -->
+    <section class="section video-section">
+      <p class="section-label">🎥 MOMENTOS ESPECIALES</p>
+      <h2>También hay recuerdos en movimiento</h2>
+
+      <div class="video-list">
+
+        <!-- Video 1 -->
+        <article class="video-card">
+          <video controls playsinline preload="metadata">
+            <source src="videos/video01.mp4" type="video/mp4">
+            Tu navegador no puede reproducir este video.
+          </video>
+          <h3>Un momento especial</h3>
+          <p>Nuestro primer viaje Los Angeles.</p>
+        </article>
+
+        <!-- Video 2 -->
+        <article class="video-card">
+          <video controls playsinline preload="metadata">
+            <source src="videos/video02.mp4" type="video/mp4">
+            Tu navegador no puede reproducir este video.
+          </video>
+          <h3>Viajes únicos e inolvidables</h3>
+          <p>Nuestro primer viaje a Oaxaca.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Línea del tiempo -->
+    <section class="section timeline-section">
+      <p class="section-label">✨ La primera vez que nos conocimos</p>
+      <h2>Una tarde de viernes de aquellas vueltas de fin de semana que acostumbrabas, tan linda como siempre...</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>01</span>
+          <div>
+            <h3>Nuestra primer dia juntos como pareja</h3>
+            <p>Hace un año tomamos una decision seria y decidimos comenzar esta aventura juntos. Hemos pasado situaciones dificiles,
+            pero siempre hemos salido adelante, y eso es lo que nos hace fuertes. Te amo y quiero seguir construyendo recuerdos contigo.   
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span>02</span>
+          <div>
+            <h3>Tardes de charla</h3>
+            <p>Conversamos sobre nuestros sueños y planes para el futuro. Siempre tenemos algún tema de conversación. Me gusta mucho escuchar tus palabras.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span>03</span>
+          <div>
+            <h3>Divertidos y cómplices</h3>
+            <p>Socios del caos y la risa, esas fotos que nos tomamos en cada actividad, viaje y muchas anecdotas divertidas hemos ido creando juntos.
+              Gracias por ser mi compañera de aventuras y por hacer que cada día sea especial.
+            </p>
+            <p>
+              TE AMO!!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cierre -->
+    <section class="final-section">
+      <div class="confetti">✦ ✧ ✦ ✧ ✦</div>
+      <p class="section-label">🎂 CON TODO MI CARIÑO</p>
+      <h2>¡Feliz cumpleaños!</h2>
+      <h3 id="finalName">[NOMBRE] ❤️</h3>
+      <p id="finalMessage">
+        Que todos tus deseos se conviertan en realidad y que nunca falten
+        razones para sonreír.
+      </p>
+      <div class="big-heart">♥</div>
+    </section>
+
+  </main>
+
+  <!-- Audio: reemplaza musica.mp3 por el nombre de tu archivo -->
+  <audio id="backgroundMusic" loop preload="auto">
+    <source src="music/musica.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
